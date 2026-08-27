@@ -19,6 +19,25 @@ body {
   position: relative;
 }
 
+.game-title {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 0 0 16px rgba(122, 162, 247, 0.25);
+}
+
+.game-title span:nth-child(1) { color: #4dd0e1; } /* I - cyan */
+.game-title span:nth-child(2) { color: #ffd54f; } /* O - yellow */
+.game-title span:nth-child(3) { color: #ba68c8; } /* T - purple */
+.game-title span:nth-child(4) { color: #81c784; } /* S - green */
+.game-title span:nth-child(5) { color: #e57373; } /* Z - red */
+.game-title span:nth-child(6) { color: #7986cb; } /* J - indigo */
+
 .game-container {
   display: flex;
   gap: 20px;
